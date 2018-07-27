@@ -10,8 +10,7 @@ import uk.co.robertjolly.ctrlclick.util.Reference;
 
 import net.minecraftforge.fml.common.Mod;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
-
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, canBeDeactivated=true)
 
 public class Main {
 
